@@ -16,13 +16,13 @@ export const Cabecalho =({titulo,subtitulo}) => {
 //string , deve contem aspas 
 const estilos = StyleSheet.create({
     conteiner:{
-        backgroundColor: '#000',
+    
         alignItems: 'center',
         paddingVertical: 12
 
     },
     texto:{
-        color: '#fff',
+        color: '#000',
         fontSize: 24,
         fontWeight:'300'
     }
